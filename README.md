@@ -44,4 +44,4 @@ Format ścieżki używany jest w metodzie `insert()` jako jeden z parametrów, a
 
 # Struktura drzewa binarnego
 
-Drzewo binarne to graf, w którym każdy węzeł połączony jest z jednym albo dwoma innymi węzłami w sposób nietworzący pętli. Ze względu na chierarchiczność tej struktury, implementacja algorytmów operujących na niej można ułatwić stosując rekurencję. Metody operujące na drzewie binarnym zaimplementowane są w każdym węźle, dlatego część operacji można oddelegować od rodzica do jego dziecka.
+Drzewo binarne to graf, w którym każdy węzeł połączony jest z jednym albo dwoma innymi węzłami w sposób nietworzący pętli. Ze względu na chierarchiczność tej struktury, implementacja algorytmów operujących na niej można ułatwić stosując rekurencję. Metody operujące na drzewie binarnym zaimplementowane są w każdym węźle, dlatego część operacji można oddelegować od rodzica do jego dziecka. Większość zaimplementowanych metod korzysta z tego podejścia, wywołując tę samą metodę w węzłach-dzieciach, aby wykonanie zacząć od liści drzewa.
